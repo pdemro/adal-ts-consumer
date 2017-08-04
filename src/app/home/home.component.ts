@@ -62,11 +62,12 @@ export class HomeComponent {
     this.user = context.getUser();
 
   }
+  //pdemro@SPE372945.onmicrosoft.com
 
   private createConfig() :AdalConfig {
     let config: AdalConfig = {
-      tenant: 'hneu70532.onmicrosoft.com',
-      clientId: '61bdbb45-a004-48e3-98d9-e4f1740661c8',
+      tenant: 'SPE372945.onmicrosoft.com',
+      clientId: '71ab1320-91d8-414e-a925-2e29a6624812',
       postLogoutRedirectUrl: window.location.origin + '/',
       //postLogoutRedirectUri: window.location.origin + '/',
       redirectUri: window.location.origin + '/'
